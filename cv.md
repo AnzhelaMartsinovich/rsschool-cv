@@ -1,7 +1,7 @@
 # Anzhela Martsinovich
 
 ## Contact Info:
-* E-mail: [anzhela.martsinovich@gmail.com](anzhela.martsinovich@gmail.com)
+* E-mail: anzhela.martsinovich@gmail.com
 * GitHub: [https://github.com/AnzhelaMartsinovich](https://github.com/AnzhelaMartsinovich)
 
 
@@ -23,3 +23,63 @@
 1. Pixel perfect
 1. Responsive/adaptive design
 1. Programming languages: JavaScript basics
+
+## Code examples:
+
+```
+const togglePopUp = () => {
+	const popup = document.querySelector('.popup'),
+		popupBtn = document.querySelectorAll('.popup-btn');
+
+	popupBtn.forEach((elem) => {
+		elem.addEventListener('click', () => {
+			popup.style.display = 'block';
+		});
+	});
+
+	popup.addEventListener('click', (event) => {
+		let target = event.target;
+
+		if (target.classList.contains('popup-close')) {
+			popup.style.display = 'none';
+		} else {
+			target = target.closest('.popup-content');
+
+			if (!target) {
+				popup.style.display = 'none';
+			}
+		}
+
+	})
+};
+
+export default togglePopUp;
+```
+
+[Blissmaldives](http://martsinovich-anzhela.ru/blissmaldives/)
+
+[Wedding](http://martsinovich-anzhela.ru/diplom/)
+
+[Good Cardboard](http://martsinovich-anzhela.ru/good_cardboard/)
+
+## Experience/Education:
+
+**Online education**
+
+Glo Academy (courses)
+
+HTML Academy
+
+Codecademy
+
+Codewars
+
+**Glo Academy (work as a mentor)**
+
+**Self-educated**
+
+## English:
+
+Graduated English course February 2018, language level - A2.
+
+I use the site lingualeo.com for reading, learning grammar and listening and Simpler application on my phone for practicing English.
