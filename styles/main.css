@@ -41,3 +41,42 @@ header {
 	top: 0%;
 	max-width: 250px;
 }
+.summary-descr>p:last-child {
+	line-height: 27px;
+}
+
+.contact-title {
+	margin-bottom: 35px;
+}
+
+.contact-item {
+	margin-bottom: 20px;
+}
+
+.contact-item a {
+	color: #000;
+}
+
+.skills-item {
+	margin-bottom: 15px;
+}
+
+.code-examples-item {
+	margin-bottom: 15px;
+	list-style-type: square;
+}
+
+.code-examples-item a {
+	text-decoration: none;
+	font-weight: 700;
+	color: #00675C;
+}
+
+.experience-item {
+	margin-bottom: 20px;
+}
+
+.english-descr {
+	padding-bottom: 60px;
+	line-height: 30px;
+}
