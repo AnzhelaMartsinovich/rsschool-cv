@@ -1,0 +1,82 @@
+html {
+	box-sizing: border-box;
+	background-color: rgb(159, 207, 203);
+	font-family: Montserrat, sans-serif;
+}
+
+.container {
+	position: relative;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+section {
+	padding: 20px;
+}
+
+.title {
+	color: #BF6D30;
+}
+
+header {
+	padding-top: 50px;
+	height: 400px;
+	background-color: #009E8E;
+	/* box-shadow: 0 19px 38px rgba(0, 0, 0, .3), 0 15px 12px rgba(0, 0, 0, .22); */
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 87%);
+}
+
+.header {
+	padding: 20px;
+}
+
+.header-title {
+	margin-bottom: 40px;
+	font-size: 36px;
+}
+
+.header-img {
+	position: absolute;
+	right: 5%;
+	top: 0%;
+	max-width: 250px;
+}
+.summary-descr>p:last-child {
+	line-height: 27px;
+}
+
+.contact-title {
+	margin-bottom: 35px;
+}
+
+.contact-item {
+	margin-bottom: 20px;
+}
+
+.contact-item a {
+	color: #000;
+}
+
+.skills-item {
+	margin-bottom: 15px;
+}
+
+.code-examples-item {
+	margin-bottom: 15px;
+	list-style-type: square;
+}
+
+.code-examples-item a {
+	text-decoration: none;
+	font-weight: 700;
+	color: #00675C;
+}
+
+.experience-item {
+	margin-bottom: 20px;
+}
+
+.english-descr {
+	padding-bottom: 60px;
+	line-height: 30px;
+}
